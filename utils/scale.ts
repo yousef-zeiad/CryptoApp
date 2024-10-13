@@ -2,8 +2,8 @@ import { Dimensions } from "react-native";
 
 export const { width, height } = Dimensions.get("window");
 
-export const guidelineBaseWidth = 375; // the width should be equal to the device located in design system
-export const guidelineBaseHeight = 812; // the height should be equal to the device located in design system
+export const guidelineBaseWidth = 375; 
+export const guidelineBaseHeight = 812;
 
 const widthRatio = width / guidelineBaseWidth;
 const heightRatio = height / guidelineBaseHeight;
